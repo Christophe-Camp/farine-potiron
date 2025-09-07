@@ -1,0 +1,21 @@
+/* === Boutons de vote activés === */
+
+/* Style pour le bouton "like" actif */
+.active-like {
+    background-color: #198754; /* vert Bootstrap pour indiquer un like */
+    color: white !important;    /* texte en blanc pour une meilleure lisibilité */
+}
+
+/* Style pour le bouton "dislike" actif */
+.active-dislike {
+    background-color: #dc3545; /* rouge Bootstrap pour indiquer un dislike */
+    color: white !important;   /* texte en blanc pour une meilleure lisibilité */
+}
+
+/* === Icônes des votes === */
+
+/* Espace entre l'icône et le texte dans les boutons like et dislike */
+#vote-like i,
+#vote-dislike i {
+    margin-right: 5px; /* petit espace à droite de l'icône */
+}
